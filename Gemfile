@@ -6,8 +6,6 @@ ruby '3.1.3'
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem 'rails', '~> 7.0.4', '>= 7.0.4.3'
 
-gem 'rubocop', '>= 1.0', '< 2.0'
-
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem 'sprockets-rails'
 
@@ -50,6 +48,16 @@ gem 'bootsnap', require: false
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 # gem "image_processing", "~> 1.2"
 
+# All necessary for personal use
+gem 'rubocop', '>= 1.0', '< 2.0'
+
+gem 'devise'
+
+gem 'cancancan'
+
+gem 'bootstrap', '~> 4.3.1'
+
+
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   gem 'debug', platforms: %i[mri mingw x64_mingw]
@@ -69,6 +77,12 @@ end
 group :test do
   # Use system testing [https://guides.rubyonrails.org/testing.html#system-testing]
   gem 'capybara'
+  gem 'factory_bot'
+  gem 'faker'
+  gem 'rails-controller-testing'
+  gem 'rspec'
+  gem 'rspec-rails'
   gem 'selenium-webdriver'
+  gem 'warden'
   gem 'webdrivers'
 end
