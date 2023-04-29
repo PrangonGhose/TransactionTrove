@@ -40,7 +40,7 @@ body {
 
 .app-name span {
   display: inline-block;
-  font-family: 'Bruno Ace SC';
+  font-family: 'Bruno Ace SC', sans-serif;
   font-size: 5rem;
   opacity: 0;
   animation-name: fade-in;
@@ -54,6 +54,7 @@ body {
     opacity: 0;
     transform: translateX(-20px);
   }
+
   to {
     opacity: 1;
     transform: translateX(0);
@@ -135,7 +136,7 @@ body {
 // Hide scroll bar for Chrome and Safari
 
 .expenses-main-container::-webkit-scrollbar {
-display: none;
+  display: none;
 }
 
 .expenses-container {
