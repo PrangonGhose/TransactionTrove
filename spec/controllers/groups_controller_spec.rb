@@ -26,9 +26,9 @@ RSpec.describe GroupsController, type: :controller do
   describe 'POST create' do
     context 'with valid params' do
       it 'creates a new group' do
-        expect {
+        expect do
           post :create, params: { group: { name: 'new', icon: 'www.test.com' } }
-        }.to change(Group, :count).by(1)
+        end.to change(Group, :count).by(1)
       end
 
       it 'redirects to the groups index page' do
@@ -39,9 +39,9 @@ RSpec.describe GroupsController, type: :controller do
 
     context 'with invalid params' do
       it 'does not create a new group' do
-        expect {
+        expect do
           post :create, params: { group: { name: '' } }
-        }.not_to change(Group, :count)
+        end.not_to change(Group, :count)
       end
 
       it 'renders the new template' do

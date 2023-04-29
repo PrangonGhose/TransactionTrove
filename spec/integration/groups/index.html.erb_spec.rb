@@ -33,8 +33,8 @@ RSpec.describe 'groups/index.html.erb', type: :feature do
   end
 
   it 'Shows the date of creation of the groups' do
-    expect(page).to have_content(@group.created_at.strftime("%d %b %Y"))
-    expect(page).to have_content(@group2.created_at.strftime("%d %b %Y"))
+    expect(page).to have_content(@group.created_at.strftime('%d %b %Y'))
+    expect(page).to have_content(@group2.created_at.strftime('%d %b %Y'))
   end
 
   it 'redirects me to a specifc group' do
