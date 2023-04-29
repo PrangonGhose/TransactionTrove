@@ -1,6 +1,6 @@
 class GroupsController < ApplicationController
   def index
-    @groups = current_user.groups
+    @groups = current_user.groups.includes(:expenses)
   end
 
   def show

@@ -6,7 +6,7 @@ class ExpensesController < ApplicationController
 
   def new
     @expense = Expense.new
-    @groups = current_user.groups.all
+    @groups = current_user.groups.includes(:expenses)
   end
 
   def create
