@@ -82,6 +82,4 @@ test:
 #
 production:
   <<: *default
-  database: TransactionTrove_production
-  username: TransactionTrove
-  password: <%= ENV["TRANSACTIONTROVE_DATABASE_PASSWORD"] %>
+  url: <%= ENV["DATABASE_URL"] %>
