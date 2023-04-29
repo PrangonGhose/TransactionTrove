@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class GroupTest < ActiveSupport::TestCase
+class GroupExpensesControllerTest < ActionDispatch::IntegrationTest
   # test "the truth" do
   #   assert true
   # end
