@@ -4,7 +4,7 @@ require_relative '../support/devise'
 RSpec.describe GroupsController, type: :controller do
   let!(:user) { User.create(name: 'Prangon Ghose', email: 'test@example.com', password: '12345678') }
   before(:each) do
-    user.confirm
+    # user.confirm
     sign_in user
     @group = Group.create(name: 'new', icon: 'www.test.com', user:)
     @group2 = Group.create(name: 'new2', icon: 'www.test2.com', user:)

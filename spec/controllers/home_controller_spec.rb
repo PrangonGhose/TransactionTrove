@@ -6,7 +6,7 @@ RSpec.describe HomeController, type: :controller do
     let!(:user) { User.create(name: 'Prangon Ghose', email: 'test@example.com', password: '12345678') }
     context 'when user is signed in' do
       before do
-        user.confirm
+        # user.confirm
         sign_in user
         get :index
       end

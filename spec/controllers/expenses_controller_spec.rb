@@ -6,7 +6,7 @@ RSpec.describe ExpensesController, type: :controller do
   let!(:group) { Group.create(name: 'Group 1', icon: 'www.test.com', user:) }
   let!(:group2) { Group.create(name: 'Group 2', icon: 'www.test2.com', user:) }
   before(:each) do
-    user.confirm
+    # user.confirm
     sign_in user
   end
 

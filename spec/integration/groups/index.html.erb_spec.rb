@@ -3,7 +3,7 @@ require 'rails_helper'
 RSpec.describe 'groups/index.html.erb', type: :feature do
   let(:user) { User.create(name: 'Prangon Ghose', email: 'test@example.com', password: '12345678') }
   before(:each) do
-    user.confirm
+    # user.confirm
     sign_in user
     @group = Group.create(name: 'new', icon: 'https://picsum.photos/70/70', user:)
     @group2 = Group.create(name: 'new2', icon: 'https://picsum.photos/70/70', user:)
