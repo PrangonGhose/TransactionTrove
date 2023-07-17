@@ -22,6 +22,7 @@
   - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
+- [🖥 User Interface](#ui)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -122,6 +123,14 @@ This website is applicable for both mobile and desktop version.
 ```
 $ rspec
 ```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## User Interface <a name="ui"></a>
+
+| Index Page | Categories Page |
+| ------ | ------ |
+| <img src="./app/assets/images/app.jpeg"> | <img src="./app/assets/images/categories.jpeg"> |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
