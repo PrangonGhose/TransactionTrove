@@ -128,9 +128,18 @@ $ rspec
 
 ## User Interface <a name="ui"></a>
 
-| Index Page | Categories Page |
+| Index Page |
+| ----- |
+| <img src="./app/assets/images/app.jpeg"> |
+
+| Categories Page | Transactions Page |
 | ------ | ------ |
-| <img src="./app/assets/images/app.jpeg"> | <img src="./app/assets/images/categories.jpeg"> |
+| <img src="./app/assets/images/categories.jpeg"> | <img src="./app/assets/images/transactions.jpeg"> |
+
+| Add Category Page | Add Transaction Page |
+| ----- | ----- |
+| <img src="./app/assets/images/new_category.jpeg"> | <img src="./app/assets/images/new_transaction.jpeg"> |
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
