@@ -61,10 +61,8 @@ This is a budget storing app built with `Rails` framework to let users sign up, 
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-Live demo is available [here](https://transaction-trove.onrender.com).<br>
+Live demo is currently not available.<br>
 Presentation of the project is available [here](https://www.loom.com/share/ebe1e83172b648e38a0ab578e21444da).
-
-**N.B: The website is hosted via free account on Render. That is why the server might take some time to response or may be unresponsive due to automatic disablity of the PostgreSQL database.**
 
 <!-- GETTING STARTED -->
 
